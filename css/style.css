@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+	@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=EB+Garamond:ital@1&family=Inter&display=swap');
+body
+{
+	background-color:#FFFFFF; /*màu nền trang web */
+	color: #73716E;
+	font-family: 'Inter',Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	margin: 0;
+/*background-image:url( "../images/Rectangle 11.jpg");*/
+height: 100%; 
+background-repeat: no-repeat}
+h1{	font-size: 54px;}
+h2{	font-size: 36px}
+h3{	font-size: 24px}
+h1,h2,h3,h4,p
+{
+	font-family: 'Inter',Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif" ;
+	color: #191612
+}
+
+.btn-primary
+{ background: #EE1418;
+color: #fff;
+padding: 10px 15px;
+border-radius: 20px;
+border: none;
+cursor: pointer;
+text-decoration: none;
+text-transform: uppercase}
+/*.btn-primary:hover{background-color: #4B5727}*/
+
+* {box-sizing: border-box}
+.col-1 { width: 8.333333%}
+.col-2 { width: 16.66%}
+.col-3 { width: 25%}
+.col-4 { width: 33.33333%}
+.col-5{ width: 41.66%}
+.col-6 { width: 50%}
+.col-7 { width: 58.33%}
+.col-8 { width: 66.66%}
+.col-9 { width: 75%}
+.col-10{ width: 83.33%}
+.col-11{ width: 91.66%}
+.col-12 { width: 100%}
+.container { width: 80%; margin: auto}
+[class*="col-"]
+{
+	/*border: 1px solid red;*/
+	padding:15px
+}
+
+.img-100 { width: 100%; height: auto}
+.row { display:flex; flex-wrap: wrap}
+nav
+{background: white; position:relative;
+	box-shadow: 0 3px 8px rgba( 0,0,0,0.1 );
+z-index: 9999}
+nav .container
+{display: flex;
+/*	position: fixed;*/
+justify-content: space-between;
+align-items: center;
+background-color: white}
+/*nav a.logo img {width: 150px; height: auto}*/
+nav .menu ul
+{margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+margin-bottom: 10px;
+	perspective: 100px;
+ }
+nav .menu ul li
+{position: relative;
+align-items: center;
+display: flex}
+nav .menu ul li a
+{color: #444;
+text-decoration: none;
+padding: 10px 25px;
+	padding-bottom: 10px;
+text-transform: uppercase;
+	display: block;
+font-size: 18px;
+font-weight: bold}
+nav .menu ul li ul a p
+{font-size: 13px}
+.sanphamsale li
+{display: flex}
+nav .menu ul li a p
+{font-size: 15px}
+nav .menu ul li a:hover
+{color: #EE1418}
+nav .menu ul li a.avtive
+{background-color: #C5A25D;
+color: #fff}
+
+nav .menu ul ul
+{display: block;
+background: white;
+position: absolute;
+	box-shadow: 0 3px 8px rgba( 0,0,0,0.1 );
+left: 0;
+top:100px;
+	width: 200px;
+z-index: 99999;
+	visibility: hidden;
+opacity: 0;
+transition: all 0.3s;}
+nav .menu ul li:hover >ul
+{top: 100%;
+visibility: visible;
+opacity: 1}
+nav  span
+{color: #444;}
+
+/*nav .menu ul ul a 
+{display: block}*/
+#banner .item
+{position: relative}
+#banner .item .banner-caption
+{position: absolute;
+
+width: 100%;
+top: 20%;
+color: #fff; text-align: center}
+#banner .item .banner-caption h1
+{color: #fff}
+#vung1
+{text-align: center;}
+#vung1 h3
+{font-size: 25px}
+
+#vung2 h3
+{text-align: center;
+}
+#vung2 .thongtin ul 
+{display: flex;
+	list-style: none;
+margin: 0;
+padding: 0;
+margin-bottom: 10px;
+perspective: 100px}
+#vung2 .thongtin ul li
+{position: relative}
+#vung2 .thongtin ul li a
+{padding: 10px 45px;
+	text-transform: uppercase;
+	display: block;
+text-decoration: none;
+font-weight: bold;
+color: #4D4D4D;
+font-size: 0.8rem;
+}
+#vung2 ul li a:hover
+{color: #EE1418}
+#poster
+{width: 25%;
+	height: 25%;
+display: flex}
+#vung3
+{text-align: center}
+#vung3 h3
+{font-size: 25px}
+#vung4
+{display: flex;}
+#vung4 .vietnam
+{width: 40%;
+padding: 3px}
+#vung4  ul 
+{width: 60%;
+	display: flex;
+list-style: none}
+#vung4 ul li
+{width: 60%;
+padding: 10px;}
+#vung4 ul li a
+{text-decoration: none;
+}
+#vung4 ul li a h3:hover
+{color:#EE1418}
+#vung5
+{display: flex}
+#vung5 ul
+{display: flex;
+list-style: none}
+#vung5 ul li 
+{width: 20%;
+padding: 10px;}
+#vung5 ul li a 
+{text-decoration: none;
+}
+#vung5 ul li a h3:hover
+{color:#EE1418 }
+#vung6{ background:#E0E0E0}
+#vung6 ul
+{display: flex;
+padding: 0px}
+#vung6 ul li
+{width: 100%;
+list-style: none;}
+#vung6 ul ul
+{display: block}
+#poster
+{width: 100%}
+.btn-primary-1
+{ background: #E0E0E0;
+color: #fff;
+padding: 10px 15px;
+/*border-radius: 10px;*/
+border: none;
+cursor: pointer;
+text-decoration: none;
+text-transform: uppercase}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+	@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=EB+Garamond:ital@1&family=Inter&display=swap');
+body
+{
+	background-color:#FFFFFF; /*màu nền trang web */
+	color: #73716E;
+	font-family: 'Inter',Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	margin: 0;
+/*background-image:url( "../images/Rectangle 11.jpg");*/
+height: 100%; 
+background-repeat: no-repeat}
+h1{	font-size: 54px;}
+h2{	font-size: 36px}
+h3{	font-size: 24px}
+h1,h2,h3,p,h4
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #191612
+}
+
+.btn-primary
+{ background: #EE1418;
+color: #fff;
+padding: 10px 15px;
+border-radius: 20px;
+border: none;
+cursor: pointer;
+text-decoration: none;
+text-transform: uppercase}
+/*.btn-primary:hover{background-color: #4B5727}*/
+
+* {box-sizing: border-box}
+.col-1 { width: 8.333333%}
+.col-2 { width: 16.66%}
+.col-3 { width: 25%}
+.col-4 { width: 33.33333%}
+.col-5{ width: 41.66%}
+.col-6 { width: 50%}
+.col-7 { width: 58.33%}
+.col-8 { width: 66.66%}
+.col-9 { width: 75%}
+.col-10{ width: 83.33%}
+.col-11{ width: 91.66%}
+.col-12 { width: 100%}
+.container { width: 80%; margin: auto}
+[class*="col-"]
+{
+	/*border: 1px solid red;*/
+	padding:15px
+}
+
+.img-100 { width: 100%; height: auto}
+.row { display: flex; flex-wrap: wrap}
+nav
+{background: white;
+
+/*width: 300px;*/
+display: flex;
+	box-shadow: 0 3px 8px rgba( 0,0,0,0.1 );
+z-index: 9999}
+nav
+{background: white; position: relative;
+	box-shadow: 0 3px 8px rgba( 0,0,0,0.1 );
+z-index: 9999}
+nav .container
+{display: flex;
+justify-content: space-between;
+align-items: center}
+/*nav a.logo img {width: 150px; height: auto}*/
+nav .menu ul
+{margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+margin-bottom: 10px;
+	perspective: 100px;
+ }
+nav .menu ul li
+{position: relative;
+align-items: center;
+display: flex}
+nav .menu ul li a
+{color: #444;
+text-decoration: none;
+padding: 10px 25px;
+	padding-bottom: 10px;
+text-transform: uppercase;
+	display: block;
+font-size: 18px;
+font-weight: bold}
+nav .menu ul li ul a p
+{font-size: 13px}
+.sanphamsale li
+{display: flex}
+nav .menu ul li a p
+{font-size: 15px}
+nav .menu ul li a:hover
+{color: #EE1418}
+nav .menu ul li a.avtive
+{background-color: #C5A25D;
+color: #fff}
+
+nav .menu ul ul
+{display: block;
+background: white;
+position: absolute;
+	box-shadow: 0 3px 8px rgba( 0,0,0,0.1 );
+left: 0;
+top:100px;
+	width: 200px;
+z-index: 99999;
+	visibility: hidden;
+opacity: 0;
+transition: all 0.3s;}
+nav .menu ul li:hover >ul
+{top: 100%;
+visibility: visible;
+opacity: 1}
+#banner .item
+{position: relative}
+#banner .item .banner-caption
+{position: absolute;
+
+width: 100%;
+top: 20%;
+color: #fff; text-align: center}
+#banner .item .banner-caption h1
+{color: #fff}
+#vung1
+{
+background: #E0E0E0;
+padding: 1px 0px}
+#vung1 p
+{margin-left: 15px}
+#vung2 ul
+{display: flex;
+list-style: none}
+#vunng2 .FG
+{height: 40%;
+display: block; width: auto}
+#vung2 ul .FG-hinh 
+{list-style: none;}
+#vung2 .FG-size ul
+{display: flex;
+padding: 0px;}
+#vung2 .soluong ul
+{padding: 0px}
+#vung2 .soluong ul li h4
+{margin: 0;
+padding: 0px 20px;
+	background-color: #E0E0E0
+}
+#poster
+{width: 25%;
+	height: 25%;
+display: flex}
+/*#vung3
+{text-align: center}*/
+#vung4{ background:#E0E0E0}
+#vung4 ul
+{display: flex;
+padding: 0px;}
+#vung4 ul li
+{width: 100%;
+list-style: none;}
+#vung4 ul ul
+{display: block}
+
+
+
+
+
+
+
+
+
+
+
+
+
